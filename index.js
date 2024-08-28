@@ -59,9 +59,6 @@ function renderNotes(notes){
 }
 
 
-
-
-
 function createNoteElement(note, index){
     var noteElement = document.createElement('div');
     noteElement.className = 'col-lg-4 col-md-6 col-sm-12 note';
@@ -130,7 +127,7 @@ function updateCompletedCount(completedTask, total){
 
 
 function addOrUpdateNote() {
-    console.log('guardando nota...');
+    console.log('guardando pendiente...');
 
     var noteInputValue = document.getElementById('noteInput').value.trim();
     if(noteInputValue !== ''){
